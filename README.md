@@ -39,3 +39,11 @@ This is an approximated passage of The Old Man and the Sea where `n = 7`:
     from an old fish together and the fishs head clear. then when he knew that half feet and that hard
     down a marlin. can i offer you at the clouds and you enjoyed kills everything now for him. now with
     flour sardines. the old man could see the current.
+
+And `n = 10`:
+
+    his left hand was phosphorescence in the water as he rowed. i could just drift, he thought, i have
+    seen big ones. it was difficult in the stern. they sat on the fish stopped beating at the end of
+    each plank, to the ice truck to carry them to the middle to bind him to take air. but after forty
+    days a boy had brought a small bird and the clicking, thrusting all-swallowing now and go until
+    something in the springs of the time that i will keep your head clear. the hand of the new beaches.
