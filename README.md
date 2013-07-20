@@ -47,3 +47,11 @@ And `n = 10`:
     each plank, to the ice truck to carry them to the middle to bind him to take air. but after forty
     days a boy had brought a small bird and the clicking, thrusting all-swallowing now and go until
     something in the springs of the time that i will keep your head clear. the hand of the new beaches.
+    
+Approximating Alice in Wonderland with `n = 7`:
+
+    'an arm for her the hatter trembled till and the lobster quadrille?' the first really clever?'
+    persisted. 'they're only wish i couldn't begun 'well, the foot as far down to think,' alice aloud.
+    'that's a very longer than i am very important--' as if she were before, 'and when i learn not talk
+    about a thousand mine doesn't look of it then again!' said to alice.  'come, or hearing and get used
+    to it but one a-piece of a candle. i won't take this   
