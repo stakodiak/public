@@ -44,7 +44,6 @@ public class huffman {
 			createLookup (lookup, n.left, s + '0');
 			createLookup (lookup, n.right, s + '1');
 		}
-
 	}
 			
 	public static void main (String[] args) {
@@ -193,6 +192,5 @@ public class huffman {
 		} catch (Exception e) {
 			System.out.println (args[0] + ": File not found.");
 		}
-
 	}
 }
