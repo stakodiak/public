@@ -47,7 +47,7 @@ public class huffman {
 	}
 			
 	public static void main (String[] args) {
-		/* args;
+		/* args:
 		  args[0] - File to compress.
 		  args[1] - Compressed filename.
 		  args[2] - Decompressed file.
