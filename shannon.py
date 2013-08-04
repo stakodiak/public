@@ -13,7 +13,6 @@ import textwrap
 
 
 def main():
-
 	# open text
 	file_name = "text.txt"
 	if len(sys.argv) >= 2:
