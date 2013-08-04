@@ -11,7 +11,6 @@ import random
 import sys
 import textwrap
 
-
 def main():
 	# open text
 	file_name = "text.txt"
