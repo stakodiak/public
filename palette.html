@@ -1,0 +1,40 @@
+<html lang="en">
+	<head>
+		<title>Alex Stachowiak - {% block title %}Palettes{% endblock %}</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body id="main">
+		{% include 'base/header.html' %}
+		<div id="block_content">
+			<h2>Here's my palette page.</h2>
+			<p>All palettes are generated with a random hue, saturation and value. Hues are separated by a factor of G. The grid background is randomly generated. <a href="https://github.com/stakodiak/public/blob/master/CSS.py">GitHub.</a></p>
+			<hr><br/>	
+			{% for swatch_list in swatches %}
+				{% for swatch in swatch_list %}
+					{% if forloop.first %}
+						<span style="margin-left: auto; margin-right: auto;;">
+						G = 
+						{% for msg in swatch %}
+							{{ msg }} 
+						{% endfor %}
+						<br />
+						<table style="margin: 10px;">
+					{% else %}
+						<tr>
+						{% for color in swatch %}
+							<td style="background-color: {{color}}; padding: 10px; color: white;">{{color}}</td>
+						{% endfor %}
+					{% endif %}
+				{% endfor %}
+				</table>
+				</span>
+				<br />
+			{% endfor %}
+			<br />
+			<a href="">Refresh.</a>
+			<div id="clear">
+			</div>
+		</div>
+	</body>
+</html>
+
