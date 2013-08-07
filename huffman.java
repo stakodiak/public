@@ -4,8 +4,6 @@ import java.lang.StringBuffer;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FileInputStream;
- 
-
 import java.util.Map;
 import java.util.HashMap;
 import java.util.SortedSet;
@@ -16,18 +14,17 @@ import java.util.Comparator;
 public class huffman {
 	
 	public static class Node implements Comparable<Node> {
-        /* Weight is symbol frequency */
+       	/* Node represents each character in Huffman tree. */
+        	/* Weight is symbol frequency */
 		int weight;
 		String symbol;
 		Node left, right;
 		
 		public Node (int weight, String symbol) {
-
 			this (weight, symbol, null, null);
 		}
 
 		public Node (int weight, String symbol, Node l, Node r) {
-			
 			this.weight = weight;
 			this.symbol = symbol;
 			left = l;
@@ -40,18 +37,21 @@ public class huffman {
 	}
 
 	public static void createLookup (Map<String, String> lookup, Node n, String s) {
- 
+ 		/* Generate corresponding bits for each character. */
 		if (n.left == null && n.right == null) 
 			lookup.put (n.symbol, s);
 		else {
 			createLookup (lookup, n.left, s + '0');
 			createLookup (lookup, n.right, s + '1');
 		}
-
 	}
 			
 	public static void main (String[] args) {
-
+		/* args:
+		  args[0] - File to compress.
+		  args[1] - Compressed filename.
+		  args[2] - Decompressed file.
+		*/
 		File source = new File (args[0]);
 		StringBuffer text = new StringBuffer();
 		try {
@@ -192,6 +192,5 @@ public class huffman {
 		} catch (Exception e) {
 			System.out.println (args[0] + ": File not found.");
 		}
-
 	}
 }
